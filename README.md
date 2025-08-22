@@ -1,1 +1,61 @@
-Local food wasatage mangement system
+Local Food Wastage Management System 💡 Project Overview This project implements a Local Food Wastage Management System, a Streamlit-based web application designed to combat food waste by efficiently connecting surplus food providers with individuals and organizations in need. The system aims to streamline the donation process, reduce environmental impact, and address food insecurity within communities.
+
+✨ Key Features Our application provides a comprehensive set of functionalities to manage the food donation lifecycle:
+
+Food Listing: Providers (e.g., restaurants, caterers, households) can easily add details of surplus food items, including name, quantity, expiry date, food type (Vegetarian, Non-Vegetarian, Vegan), and meal type (Breakfast, Lunch, Dinner, Snacks). Intuitive Filtering: Receivers can effortlessly browse and filter available food listings based on various criteria like location, food type, and meal type to find what they need. CRUD Operations: Robust management capabilities allow providers to view, update, and delete their listed food items, ensuring accurate and up-to-date information. Data Insights & Visualization: A dedicated "Key Insights" section offers various analytical views and visualizations, including: Providers and Receivers by City Top Food Contributing Provider Types Contact Information of Providers by City Receivers Who Claimed the Most Food Total Food Quantity Available City with the Highest Number of Food Listings Most Commonly Available Food Types Percentage of Food Claims by Status And many more valuable insights. Database Integration: Seamlessly interacts with an SQLite database (food_wastage.db) for persistent storage of all food listings, provider details, receiver information, and claims. 🛠 Technologies Used Frontend & Backend Framework: Streamlit (for building interactive web applications in Python) Database: SQLite3 (lightweight, file-based SQL database) Data Manipulation: Pandas (for data cleaning, analysis, and efficient interaction with the database) Database Connector: sqlite3 (Python's built-in module for SQLite) Version Control: Git & GitHub 🚀 Setup and Run Locally Follow these steps to get a copy of the project up and running on your local machine.
+
+Prerequisites Python 3.8+ pip (Python package installer) Installation Clone the repository: Bash
+
+ https://github.com/hemachithra-15/local-food-wastage-management.git
+
+cd Local-Food-Wastage-Management-System Install the required Python packages: Bash
+
+pip install -r requirements.txt (Note: You might need to create a requirements.txt file first if you haven't already. You can generate it by running pip freeze > requirements.txt in your project folder.) Database Setup The project uses an SQLite database (food_wastage.db), which is included in the repository. If you need to regenerate it or ensure its structure, you would typically have a setup script or ensure the initial data is populated (e.g., from CSVs mentioned in the project). For this project, the food_wastage.db file should be present and sufficient.
+
+Running the Application Start the Streamlit app: Bash
+
+streamlit run app.py Your default web browser should automatically open to the Streamlit application (usually at http://localhost:8501). 📋 How to Use the Application Once the application is running:
+
+Navigation: Use the sidebar to navigate between "Key Insights", "Filter Food Listings", "Add New Food Listing", and "Manage Food Listings". Add New Food Listing: Fill out the form to add new surplus food items. Filter Food Listings: Use the dropdowns to search for specific food items based on location, type, and meal. Manage Food Listings: Select an existing listing to update its details or delete it. Key Insights: Explore various charts and tables that provide analytical views of the food data.
+
+About
+No description, website, or topics provided.
+Resources
+ Readme
+ Activity
+Stars
+ 0 stars
+Watchers
+ 0 watching
+Forks
+ 0 forks
+Releases
+No releases published
+Create a new release
+Packages
+No packages published
+Publish your first package
+Languages
+Python
+100.0%
+Suggested workflows
+Based on your tech stack
+Publish Python Package logo
+Publish Python Package
+Publish a Python Package to PyPI on release.
+Python package logo
+Python package
+Create and test a Python package on multiple Python versions.
+Pylint logo
+Pylint
+Lint a Python application with pylint.
+More workflows
+Footer
+© 2025 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
